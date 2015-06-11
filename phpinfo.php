@@ -6,20 +6,18 @@
 
 	<meta http-equiv="content type" concent="text/html; charset=utf- 8"/>
 	
-	<title>Welcome to this awesome page</title>
+	<title>first php script</title>
 	
 </head>
 
 <body>
 
-<h1>This is a basic XHTML page!</h1>
+<?PHP
+phpinfo();
+?>
 
-<br />
-<p>Even with <span style="font-size: 150%;">some</span> decoration, it's still not very exiting.
-
- </p>
+print "something";
 
  </body>
 
 </html>
-

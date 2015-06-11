@@ -3,23 +3,17 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 
 <head>
-
 	<meta http-equiv="content type" concent="text/html; charset=utf- 8"/>
 	
-	<title>Welcome to this awesome page</title>
+	<title>hello world</title>
 	
 </head>
-
 <body>
+<p> the following was created by PHP:
 
-<h1>This is a basic XHTML page!</h1>
-
-<br />
-<p>Even with <span style="font-size: 150%;">some</span> decoration, it's still not very exiting.
-
- </p>
-
- </body>
-
+<?php
+print "<span style=\" font-weight: bold;\">hello, world! </span>";
+?>
+</p>
+</body>
 </html>
-
