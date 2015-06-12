@@ -16,8 +16,6 @@
 phpinfo();
 ?>
 
-print "something";
-
  </body>
 
 </html>
