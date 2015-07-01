@@ -1,0 +1,31 @@
+<!DOCTYPE html PUBLIC "-//w3c//DTD XHMTL 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://wwww.w3.org/1999/xhtml" xml:lang= "en" lang="en">
+<head>
+    <meta http-equiv="Content-Type" content= "text/html; charset=utf-8"/>
+    <title> Product Cost Calculator</title> 
+</head>
+<body>
+    <div> <p> Fill out his form to calculate your total cost:</p> </div>
+    
+    <form action="handle_calc.php" method="post">
+       <!--why there is a "/" after the size number?-->
+        <p>price: <input type="text" name="price" size="5"/></p>
+        <p>quantity: <input type="text" name="quantity" size="5"/></p>
+        <p>discount: <input type="text" name="discount" size="5"/></p>
+        <!--why the size number of tax is smaller than others? Why there is % sign?-->
+        <p>tax: <input type="text" name="tax" size="3"/> (%)</p>
+        <p>shipping method: <select name="shipping">
+            <option value="5.00">slow and steady</option>
+            <!--why there us a period at the end of the sentence? style preference?-->
+            <option value="8.95">put a move on it.</option>
+            <option value="19.36">I need it yesterday!</option>
+        </select>
+        </p>
+        <p> number of payments to make: <input type="text" name="payment" size="3"/></p>
+       <!--why there is no <p> tag to begin with the line belew?-->
+        <input type="submit" name="submit" value="calculate!"/>
+    </form>
+    
+</body>
+</html>
